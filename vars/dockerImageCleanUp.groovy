@@ -7,6 +7,6 @@
 
  def call(String aws_account_id,String region,String repoName){
     
-    sh "docker rmi -f ${repoName}:latest "
+    //sh "docker rmi -f ${repoName}:latest "
     
 }
